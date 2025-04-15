@@ -1,0 +1,156 @@
+* {
+    color: white;
+    border: border-box;
+    margin: 0px;
+    font-family: Arial;
+}
+/** for amazon logo **/
+.navbar{
+    background-color: #0f1111;
+    height: 60px;
+    position: sticky;
+    top: 0px;
+    align-items: center;
+    padding-left: 3px;
+    /* padding-top: 3px; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav_logo{
+    height: 50px;
+    width: 100px;
+    padding: 1px 8px 0px 6px;
+}
+.logo{
+    height: 50px;
+    width: 100%;
+    background-image: url(homepage/images/amazon_logo.png);
+    background-size: cover;
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+    border-radius: 2px;
+}
+/** for address **/
+.nav_address-1{   
+    margin-bottom: 4px ;
+    cursor: pointer;
+    padding-right: 6px ;
+    padding: 7px;
+}
+.nav_address-2{
+    text-align: center;
+    display: flex;
+    padding: 4px;
+}
+.address-1{
+    margin-left: 24px;
+    color: rgb(188, 186, 183);
+    font-size: 12px;
+    font-weight: 100;
+}
+.address-2{
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+/* third box */
+.nav_search{
+    display: flex;
+    height: 40px;
+    width: 900px;
+    margin-left:10px ;
+    justify-content: space-evenly;
+}
+.nav_search:hover{
+    border: 2px solid chocolate;
+    border-radius: 7px;
+}
+.nav_select{
+    cursor: pointer;
+    width: 48px;
+    background-color: rgb(241, 234, 226);
+    border-width: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #0f1111;
+    padding-left: 5px;
+}
+.nav_input{
+    padding-left: 5px;
+    border-width: 0px;
+    font-size: 15px;
+    width: 100%;
+    color: black;
+}
+.search_button{
+    cursor: pointer;
+    width: 50px;
+    background-color: rgb(208, 115, 15);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*  fourth box  */
+.nav_country{
+    margin-left: 4px;
+    cursor: pointer;
+    padding: 14px;
+}
+.country_select{
+    background-color: #0f1111;
+    border-width: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    align-items: center;
+    cursor: pointer;
+}
+/*  fifth box   */
+.nav_sign-in{
+    cursor: pointer;
+    padding: 7px;
+}
+.sign-1{
+    font-size: 12px;
+    padding-left: 5px;
+}
+.sign-2{
+    background-color: #0f1111;
+    cursor: pointer;
+    border-width: 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+/* sixth box */
+.nav_order{
+    padding: 10px;
+    cursor: pointer;
+}
+.order-1{
+    font-size: 12px;
+}
+.order-2{
+    font-size: 14px;
+    font-weight: bold;
+}
+/* seventh box */
+.nav_cart{
+    padding: 17px;
+    cursor: pointer;
+    display: flex;
+}
+.cart-1{
+    position: relative;
+    top: 8px;
+    left: -7px;
+}
+.cart-2{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
