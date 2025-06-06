@@ -154,3 +154,20 @@
     display: flex;
     align-items: center;
 }
+
+
+
+/* products details */
+.products{
+    padding: 20px;
+    text-align: start;
+    width: 300px;
+    background-color: rgb(234, 192, 129);
+}
+.product_name,.product_price{
+    color: black;
+    font-size: 20px; 
+}
+.quantity{
+    color: black;
+}
